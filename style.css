@@ -86,7 +86,54 @@ justify-content: space-between;
       margin-top: 100px;
   }
   
-  
+  .part1, .part2, .part3{
+    background-color: honeydew;
+    box-shadow: 1px 1px gray;
+    border-radius: 5px;
+    align-items: center;
+    
+}
+.card{
+    padding: 50px;
+    
+}
+.card:hover{
+    background-color: gray;
+}
+.logo{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+.fa-star{
+    color: orange;
+    
+}
+.banner img{
+    border-radius: 5px;
+}
+ .title{
+    text-align: center;
+   
+}
+.main-div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:50px ;
+    grid-row-gap: 20px;
+}
+/*----------------
+Contact me part
+------------------*/
+.contact-part{
+margin-top: 100px;
+background-color: rgb(252, 238, 192);
+padding: 20px;
+border-radius: 10px;
+
+}
+
 
 
 
