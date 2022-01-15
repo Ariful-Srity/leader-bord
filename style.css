@@ -1,1 +1,42 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Poppins:wght@500&display=swap');
+
+body{
+    background-color: #AAAAAA;
+    font-family: 'Lobster Two', cursive;
+font-family: 'Poppins', sans-serif;
+}
+.container{
+    background-color: #ffff;
+    margin-left: 50px;
+
+    margin-right: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.navbar{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.nav ul{
+    display: flex;
+  
+    
+    
+}
+.nav ul li{
+    margin: 20px;
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+}
+.main{
+display: flex;
+justify-content: space-between;
+
+}
+.text-area{
+    
+}
