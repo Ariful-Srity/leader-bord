@@ -222,7 +222,83 @@ border-radius: 10px;
         
         }
         
+        .container{
+            width: 100%;
+            margin-right: 0px;
+            margin-left: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+      .navbar{
+          flex-direction: column;
+      }
+      .nav ul{
+          flex-direction: column;
+      }
+      
+          .main{
+              flex-direction: column;
+          }
+      .logo{
+          flex-direction: column;
+          
+      }
+      .main-div{
+          grid-template-columns: repeat(1,1fr);
+      }
+      .contact-me{
+          grid-template-columns: repeat(1,1fr);
+      }
+      .players{
+          grid-template-columns: repeat(1,1fr);
+      }
+      
+      
+      }
+      
+      /*----------------------------
+      Tablet Devices
+      -----------------------------*/
+      @media only screen and (min-width:688px) and (max-width:992px){
+      
+          .container{
+              width: 100%;
+              margin-right: 0px;
+              margin-left: 0px;
+              padding-left: 0px;
+              padding-right: 0px;
+          }
+        
+        /*.nav ul{
+            flex-direction: column;
+        }*/
+        
+            .main{
+                flex-direction: column;
+            }
+        .logo{
+            flex-direction: column;
+            margin-top: 5px;
+            padding-top: 5px;
             
+        }
+        .main-div{
+            grid-template-columns: repeat(2,1fr);
+        }
+        .contact-me{
+            grid-template-columns: repeat(2,1fr);
+        }
+        .players{
+            grid-template-columns: repeat(2,1fr);
+        }
+        
+      
+      
+      
+      
+      
+      }
+           
 
 
 
