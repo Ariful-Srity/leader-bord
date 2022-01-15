@@ -178,7 +178,51 @@ border-radius: 10px;
         
         
         }
-    
+        .name-title{
+            font-size: 18px;
+            margin-left: 16px;
+            
+            }
+        
+        
+        
+        
+        
+        /*--------------
+        Footer section
+        ----------------*/
+        .footer{
+            background-color: #0A0826;
+            color: honeydew;
+            margin-top: 100px;
+        }
+        .article{
+        
+        text-align: center;
+        padding: 50px 0px;
+        
+        }
+        .fa-instagram-square, .fa-basketball-ball, .fa-twitter-square, .fa-youtube-square {
+            margin: 0 16px;
+            font-size: 20px;
+            
+        }
+        
+        /*-------------------
+            Media Queries
+        ---------------------*/
+        
+        /*--------------------------
+              Mobile Devices
+        ----------------------------*/      
+        @media only screen and (max-width:688px) {
+        body{
+        overflow-x:hidden ;
+        max-width: 100%;
+        
+        }
+        
+            
 
 
 
